@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://localhost/aashirwad/index.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <!-- adding icons -->
+  <link href="./index_files/flat-ui.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./index_files/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./index_files/regular.min.css" integrity="sha512-KYEnM30Gjf5tMbgsrQJsR0FSpufP9S4EiAYi168MvTjK6E83x3r6PTvLPlXYX350/doBXmTFUEnJr/nCsDovuw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!--adding bootstrap cdn and externals -->
+  <link href="./index_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./index_files/animate.min.css">
+  <link rel="stylesheet" href="./index_files/bootstrap-icons.css">
+
+  <!-- slick carousel -->
+  <link rel="stylesheet" href="./index_files/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./index_files/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./index_files/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+
+  <!-- adding pure css and responsive css -->
+  <link rel="stylesheet" href="./index_files/lightbox.min.css">
+  <link rel="stylesheet" href="./index_files/animate(1).min.css">
+  <link rel="stylesheet" href="./index_files/magnific-popup.css">
+  <link rel="stylesheet" href="./index_files/jquery-ui.css">
+
+  <link rel="stylesheet" href="./index_files/styles.css">
+  <link rel="stylesheet" href="./index_files/responsive.css">
+
+  <link rel="icon" href="http://localhost/aashirwad/assets/hotel_aashirwad_logo.png">
+  <title>Hotel Aashirwad and Restaurant</title>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg sticky">
+      <div class="container">
+        <div class="navlogo">
+          <a href="http://localhost/aashirwad/index.php" class="navbar-brand mr-0">
+            <img src="./index_files/hotel_aashirwad_logo.jpeg" alt="hotel-logo">
+          </a>
+        </div>
+        <div class="offcanvas offcanvas-start bg_dblue" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header ">
+            <div class="navlogo">
+              <a href="http://localhost/aashirwad/index.php" class="navbar-brand mr-0">
+                <img src="./index_files/hotel_aashirwad_logo.jpeg" alt="hotel-logo">
+              </a>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a href="http://localhost/aashirwad/index.php" class="nav-link ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://localhost/aashirwad/about.php" class="nav-link ">About</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accomodation
+                </a>
+                <ul class="dropdown-menu opacity-80">
+                  <li><a class="dropdown-item" href="http://localhost/aashirwad/twinroom.php">Twin Room</a></li>
+                  <li><a class="dropdown-item" href="http://localhost/aashirwad/familyroom.php">Family Room</a></li>
+                  <li><a class="dropdown-item" href="http://localhost/aashirwad/suiteroom.php">Suite Room</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://localhost/aashirwad/index.php#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Updates
+                </a>
+                <ul class="dropdown-menu opacity-80">
+                  <li><a class="dropdown-item" href="http://localhost/aashirwad/blog.php">Blog</a></li>
+                  <li><a class="dropdown-item" href="http://localhost/aashirwad/gallery.php">Gallery</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="http://localhost/aashirwad/reviews.php" class="nav-link ">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a href="http://localhost/aashirwad/contact.php" class="nav-link ">Contact</a>
+              </li>
+              <li class="nav-item d-flex align-items-center justify-content-center">
+                <a href="http://localhost/aashirwad/reservation.php" class="btn ">Reservation</a>
+              </li>
+          </ul></div>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+  </header> 
+ 
+ <!-- homepage slider image -->
+ <section class="carousel p-0">
+        
+        <div class="home-slider slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 13650px; transform: translate3d(-3900px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 1950px;"><div><div class="slide-img" style="width: 100%; display: inline-block;">
+                    <div class="overlays"></div>
+                        <img src="./index_files/Paragliding_pokhara.jpg" alt="">   
+                </div></div></div><div class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 1950px;"><div><div class="slide-img" style="width: 100%; display: inline-block;">
+                    <div class="overlays"></div>
+                        <img src="./index_files/mountain_range.jpg" alt="">        
+                </div></div></div><div class="slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" style="width: 1950px;"><div><div class="slide-img" style="width: 100%; display: inline-block;">
+                    <div class="overlays"></div>
+                        <img src="./index_files/cable_car.jpg" alt="">                  
+                </div></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1950px;" tabindex="-1"><div><div class="slide-img" style="width: 100%; display: inline-block;">
+                    <div class="overlays"></div>
+                        <img src="./index_files/Paragliding_pokhara.jpg" alt="">   
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="3" id="" aria-hidden="true" tabindex="-1" style="width: 1950px;"><div><div class="slide-img" style="width: 100%; display: inline-block;">
+                    <div class="overlays"></div>
+                        <img src="./index_files/mountain_range.jpg" alt="">        
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="4" id="" aria-hidden="true" tabindex="-1" style="width: 1950px;"><div><div class="slide-img" style="width: 100%; display: inline-block;">
+                    <div class="overlays"></div>
+                        <img src="./index_files/cable_car.jpg" alt="">                  
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" tabindex="-1" style="width: 1950px;"><div><div class="slide-img" style="width: 100%; display: inline-block;">
+                    <div class="overlays"></div>
+                        <img src="./index_files/Paragliding_pokhara.jpg" alt="">   
+                </div></div></div></div></div></div>
+    </section>
+
+    <!-- prebooking section -->
+<section class="pre-booking section-padding-up pb-0">
+    <div class="container">
+        <form class="pre-booking-form" action="http://localhost/aashirwad/index.php">
+            <div class="row">
+                <div class="col-lg-9 p_l_row">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-12 border-column">
+                            <div class="form-group">
+                                <label for="checkin">Check-in</label>
+                                <input type="date" class="form-control" id="checkin" name="checkin" required="">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 border-column">
+                            <div class="form-group">
+                                <label for="checkout">Check-out</label>
+                                <input type="date" class="form-control" id="checkout" name="checkout" required="">
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 border-column">
+                            <div class="form-group position-relative">
+                                <label for="adults">Adults</label>
+                                <input type="number" name="adults" id="adults" class="select-opt">
+                                    
+                                    <!-- <option value="1" selected>1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option> -->
+                                    
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 border-column">
+                            <div class="form-group position-relative">
+                                <label for="children">Children</label>
+                                <input type="number" name="children" id="children" class="select-opt">
+                                    <!-- <option value="0" selected>0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option> -->
+
+                                    
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 check-column">
+                    <button type="submit" class="check-btn"> <small>check for</small> <br> Availability</button>
+                </div>
+            </div>
+
+        </form></div>
+
+            
+        
+       
+</section>
+
+<!-- intro section -->
+
+<section class="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section_title">
+                    <div class="d-flex flex-column">
+                       <div>
+                            
+                            <h6 class="text-uppercase d-inline-block color_maroon">Hotel Aashirwad  &amp; restaurant</h6>
+                        </div>
+                        <div class="">
+                            <h2 class="text-uppercase">Enjoy Your Stay <br> in Our Hotel</h2>
+                        </div>
+
+                    </div>
+                    <div class="intro_pre">
+                        <p> Welcome to the Hotel Aashirwad and Restaurant, located on the tranquil lakeside of Pokhara, offers a serene escape for travelers seeking a blend of natural beauty and modern comfort. Nestled amidst lush greenery, our hotel provides breathtaking views and a peaceful ambiance, making it the perfect destination for relaxation and rejuvenation. Guests can enjoy a variety of amenities and services, including comfortable accommodations, exquisite dining, and easy access to the city's main attractions. 
+                        </p>
+                    </div>
+                    <div class="about_btn mt-10">
+                        <a href="http://localhost/aashirwad/about.php">more about us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 sideimg">
+                <div class="about_img" style="background-image: url(&#39;assets/hotel_entrance.png&#39;);">
+                    <div class="about_exp_img" style="background-image: url(&#39;assets/hotel_entrance.png&#39;);">
+                        <div class="about_exp">
+                            <h2 class="text-white">10+</h2>
+                            <p class="text-white">Years of <br>Experience</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- roow side show -->
+
+<section class="room ">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class=" section_title pb-3">
+                         <h6 class="text-uppercase text-white d-inline-block">Welcome to Hotel Aashirwad</h6>
+                         <h2 class="text-white">Select Room Type</h2>
+                </div>
+                <div class="tab d-md-flex justify-content-center flex-column">
+                    <button class="tablinks active" onclick="openTab(event, &#39;firstTab&#39;)" id="defaultOpen">
+                        <h3>Twin Room</h3>
+                        <h5><span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i>FROM <strong>$20 /</strong> NIGHT</span>
+                        </h5>
+                    </button>
+                    <button class="tablinks" onclick="openTab(event, &#39;secondTab&#39;)">
+                        <h3>Family Room</h3>
+                        <h5><span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i> FROM <strong> $30 / </strong>
+                                NIGHT</span></h5>
+                    </button>
+                    <button class="tablinks" onclick="openTab(event, &#39;thirdTab&#39;)">
+                        <h3>Suite Room</h3>
+                        <h5><span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i>FROM <strong>$50 /</strong> NIGHT</span>
+                        </h5>
+                    </button>
+                </div>
+
+                <div id="firstTab" class="tabcontent" style="display: block;">
+
+                    <div class="tab_img">
+                        <img src="./index_files/twin_room.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab_btn">
+                        <a href="http://localhost/aashirwad/twinroom.php">View Details</a>
+                    </div>
+                </div>
+
+                <div id="secondTab" class="tabcontent" style="display: none;">
+
+                    <div class="tab_img">
+                        <img src="./index_files/family_room.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab_btn">
+                        <a href="http://localhost/aashirwad/familyroom.php">View Details</a>
+                    </div>
+                </div>
+
+                <div id="thirdTab" class="tabcontent" style="display: none;">
+                    <div class="tab_img">
+                        <img src="./index_files/suite_room.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tab_btn">
+                        <a href="http://localhost/aashirwad/suiteroom.php">View Details</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- our services -->
+
+<section class="service-section bg_gray" id="service">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section_title text-center text-uppercase pb-4 ">
+                    <h6 class="d-inline-block color_maroon">Our Services</h6>
+                    <h1>Quality you can trust</h1>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4 px-0 service-item">
+                <div class=" text-center d-flex  justify-content-center align-items-center" id="card1">
+                    <img class="bg_img" src="./index_files/room_service.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="card-body ">
+
+                        
+                        <img src="./index_files/room-service_white.png" alt="">
+                        <div class="card-title text-center fw-bolder" style="color: #fff; margin-top: 20px; ;">
+                            <div class="title">
+                                <h2 style="color:white;font-size:28px;">24hr Room <br> Service</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4 px-0 service-item">
+                <div class=" text-center d-flex  justify-content-center align-items-center" id="card1">
+                    <img src="./index_files/hotel_bar.png" alt="">
+                    <div class="overlay"></div>
+                    <div class="card-body ">
+                       
+                         
+                        <img src="./index_files/martini.png" alt="">
+
+                        <div class="card-title text-center fw-bolder" style="color: #fff; margin-top: 20px; ;">
+                            <div class="title">
+                                <h2 style="color:white;font-size:28px;">Restaurant<br> and bars</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4 px-0 service-item">
+                <div class=" text-center d-flex  justify-content-center align-items-center" id="card1">
+                    <img src="./index_files/laundry.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="card-body ">
+
+                        
+                        <img src="./index_files/laundry_white.png" alt="">
+
+                        <div class="card-title text-center fw-bolder" style="color: #fff; margin-top: 20px; ;">
+                            <div class="title">
+                                <h2 style="color:white;font-size:28px;">Laundry<br>Service</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4 px-0 service-item">
+                <div class=" text-center d-flex  justify-content-center align-items-center" id="card1">
+                    <img src="./index_files/conceigre.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="card-body ">
+
+                  
+                         <img src="./index_files/concierge.png" alt="">
+
+                        <div class="card-title text-center fw-bolder" style="color: #fff; margin-top: 20px; ;">
+                            <div class="title">
+                                <h2 style="color:white; font-size:28px;">Concierge<br>Service</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4">
+    <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 mb-4 ">
+                <div class="row">
+                    <div class="col-3 text-end">
+                        <i class="fas fa-utensils service-item-icon"></i>
+                    </div>
+                    <div class="col-9">
+                        <h3 class="service-item-title">Restaurant and Bar</h3>
+                        <p class="service-item-description">Enjoy a delightful dining experience with a variety of local and international cuisines, accompanied by refreshing beverages at our bar.</p> </div>
+                </div>     
+                
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 ">
+                <div class="row">
+                    <div class="col-3 text-end">
+                        <i class="fas fa-wifi service-item-icon"></i>
+                    </div>
+                    <div class="col-9">
+                        <h3 class="service-item-title">Free WiFi</h3>
+                        <p class="service-item-description">Stay connected with our complimentary WiFi service.</p>
+                    </div>
+                </div>      
+                                
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 ">
+                <div class="row">
+                    <div class="col-3 text-end">
+                        <i class="fa-solid fa-bell-concierge service-item-icon"></i>
+                        
+                    </div>
+                    <div class="col-9">
+                        <h3 class="service-item-title">24Hr Room Service</h3>
+                        <p class="service-item-description">Savor delicious meals and snacks delivered to your room at any time of day or night.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4  ">
+                <div class="row">
+                    <div class="col-3 text-end">
+                        <i class="fas fa-tree service-item-icon"></i>
+                        
+                    </div>
+                    <div class="col-9">
+                        <h3 class="service-item-title">Greenery</h3>
+                        <p class="service-item-description">Enjoy the serene surroundings of our hotel, surrounded by lush greenery.</p>
+                    </div>
+                </div>              
+        
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 ">
+                <div class="row">
+                    <div class="col-3 text-end">
+                        <i class="fas fa-bath service-item-icon"></i>
+                        
+                    </div>
+                    <div class="col-9">
+                        <h3 class="service-item-title">24-Hour Hot and Cold Water</h3>
+                        <p class="service-item-description">Experience comfort with round-the-clock hot and cold water facilities.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 ">
+                <div class="row">
+                    <div class="col-3 text-end">
+                        <i class="fas fa-parking fa-2x service-item-icon "></i>
+                    </div>
+                    <div class="col-9">
+                        <h3 class="service-item-title">Parking</h3>
+                        <p class="service-item-description">Enjoy the convenience of parking facilities at our hotel.</p>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- testimonial -->
+
+<section class="testimonials" style="background-color:white; ">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 section_title text-center text-uppercase" style="margin-bottom: 50px;">
+                <h6 class="d-inline-block color_maroon">testimonials</h6>
+                <h2>voices of satisfaction</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="testimonial-slider slick-initialized slick-slider"><div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 6696px; transform: translate3d(-744px, 0px, 0px);"><div class="slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                <div class="guest-info d-flex flex-column align-items-center justify-content-center">
+                        <img class="m-0" src="./index_files/tripadvisor.png" alt="guestimg">
+                       
+                    </div>
+                    <p class="testi_text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title mt-2 text-center">
+                            <h4 class="color_maroon mb-0">Mrs.Gita</h4>
+                            <p>Chitwan</p>
+                        </div>
+                </div></div></div><div class="slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                    <div class="guest-info d-flex flex-column align-items-center justify-content-center ">
+                        <img class="m-0" src="./index_files/booking.png" alt="guestimg">
+                        
+                    </div>
+                    <p class="testi_text mt-4 "> ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title mt-2 text-center">
+                            <h4 class="color_maroon mb-0 ">Mr.Ram</h4>
+                            <p>Lalitpur</p>
+                        </div>
+                 
+                </div></div></div><div class="slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                <div class="guest-info d-flex flex-column align-items-center justify-content-center ">
+                        <img class="m-0" src="./index_files/tripadvisor.png" alt="guestimg">
+                       
+                    </div>
+                   
+                    <p class="testi_text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title text-center mt-2">
+                            <h4 class="color_maroon mb-0">Mrs.Sita</h4>
+                            <p>Bhaktapur</p>
+                        </div>
+                
+                </div></div></div><div class="slick-slide" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                <div class="guest-info d-flex flex-column align-items-center justify-content-center ">
+                        <img class="m-0" src="./index_files/booking.png" alt="guestimg">
+                     
+                    </div>
+                    <p class="testi_text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title mt-2 text-center">
+                            <h4 class="color_maroon mb-0">Mr.Hari</h4>
+                            <p>Kathmandu</p>
+                        </div>
+                </div></div></div><div class="slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                <div class="guest-info d-flex flex-column align-items-center justify-content-center">
+                        <img class="m-0" src="./index_files/tripadvisor.png" alt="guestimg">
+                       
+                    </div>
+                    <p class="testi_text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title mt-2 text-center">
+                            <h4 class="color_maroon mb-0">Mrs.Gita</h4>
+                            <p>Chitwan</p>
+                        </div>
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="4" id="" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                    <div class="guest-info d-flex flex-column align-items-center justify-content-center ">
+                        <img class="m-0" src="./index_files/booking.png" alt="guestimg">
+                        
+                    </div>
+                    <p class="testi_text mt-4 "> ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title mt-2 text-center">
+                            <h4 class="color_maroon mb-0 ">Mr.Ram</h4>
+                            <p>Lalitpur</p>
+                        </div>
+                 
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="5" id="" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                <div class="guest-info d-flex flex-column align-items-center justify-content-center ">
+                        <img class="m-0" src="./index_files/tripadvisor.png" alt="guestimg">
+                       
+                    </div>
+                   
+                    <p class="testi_text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title text-center mt-2">
+                            <h4 class="color_maroon mb-0">Mrs.Sita</h4>
+                            <p>Bhaktapur</p>
+                        </div>
+                
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                <div class="guest-info d-flex flex-column align-items-center justify-content-center ">
+                        <img class="m-0" src="./index_files/booking.png" alt="guestimg">
+                     
+                    </div>
+                    <p class="testi_text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-regular fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title mt-2 text-center">
+                            <h4 class="color_maroon mb-0">Mr.Hari</h4>
+                            <p>Kathmandu</p>
+                        </div>
+                </div></div></div><div class="slick-slide slick-cloned" data-slick-index="7" id="" aria-hidden="true" tabindex="-1" style="width: 744px;"><div><div class="testimonial-item" style="width: 100%; display: inline-block;">
+                <div class="guest-info d-flex flex-column align-items-center justify-content-center">
+                        <img class="m-0" src="./index_files/tripadvisor.png" alt="guestimg">
+                       
+                    </div>
+                    <p class="testi_text mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem debitis recusandae earum odio deserunt inventore enim, ratione blanditiis repellat delectus.</p>
+                    
+                    <div class="rating">
+                        <ul class="d-flex style_star justify-content-center">
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-star" aria-hidden="true"></i></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="section_title mt-2 text-center">
+                            <h4 class="color_maroon mb-0">Mrs.Gita</h4>
+                            <p>Chitwan</p>
+                        </div>
+                </div></div></div></div></div></div>
+         </div>
+    </div>
+</section>
+
+ <!-- contact -->
+ <section id="nepal_map" class="p-0">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-6 col-12 px-0">
+                    <div class="location-map w-100">
+                        <iframe src="./index_files/embed.html" width="100%" height="450px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12 bg_bblue px-0">
+                    <div class="contact-info d-flex flex-column justify-content-center h-100 py-lg-0 py-5">
+    
+                        <div class="section_title">
+                            <h5 class="text-white">Information</h5>
+                            <h1 class="text-white">Contact</h1>
+                        </div>
+                        <div class="con-address">
+                            <div class="city-name">
+                                <strong>Lakeside, Pokhara-6, Nepal </strong>
+                            </div>
+                            <div class=" mb-3 ">
+                               <p class="text-white"> <strong>Email:</strong> <a class="text-decoration-none text-white" href="mailto:info@hotelaashirbad.com">info@hotelaashirbad.com</a></p>
+                            </div>
+                            <p class="text-white"> <strong>Call:</strong> <a class="text-decoration-none text-white" href="tel:+977-9814143738"> +977-9814143738</a> </p>
+                        </div>
+                        <div class="social_icon pt-2">
+                            <ul class="d-flex mt-3 px-0">
+                                <li><a href="http://localhost/aashirwad/index.php" class="facebook_bg" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="http://localhost/aashirwad/index.php" class="twitter_bg" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="http://localhost/aashirwad/index.php" class="youtube_bg" target="_blank"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                <li><a href="http://localhost/aashirwad/index.php" class="instagram_bg" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                </li>
+    
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- footer section -->
+
+<footer class="footer-bg pb-0">
+    <div class="footer-main pb-5">
+        <div class="container">
+            <div class="row d-flex justify-content-around position-relative">
+                <div class="col-xl-3 col-lg-5 col-md-4 f-about-section">
+                    <div class="f-about">
+                        <div class="f-logo mb-md-2">
+                            <a href="http://localhost/aashirwad/index.php#"><img src="./index_files/hotel_aashirwad_logo.jpeg" alt="logo" class="img-fluid "></a>
+                        </div>
+                        <div class="section_title">
+                            <h6 class="text-white text-uppercase">Hotel&nbsp;Aashirwad<br>
+                            and<br>
+                            Restaurant</h6>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-lg-7 col-md-8 row f-about-content">
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="footer-header">
+                            <h4>Links</h4>
+                        </div>
+                        <div class="footer-link">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <a href="http://localhost/aashirwad/index.php#">About</a>
+                                </li>
+
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <a href="http://localhost/aashirwad/index.php#">Blog</a>
+                                </li>
+
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <a href="http://localhost/aashirwad/index.php#">Gallery</a>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <a href="http://localhost/aashirwad/index.php#">Contact</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-4 mb-lg-0">
+                        <div class="footer-header">
+                            <h4>Accomodation</h4>
+                        </div>
+                        <div class="footer-link">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <a href="http://localhost/aashirwad/index.php#">Suite</a>
+                                </li>
+
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <a href="http://localhost/aashirwad/index.php#">Deluxe</a>
+                                </li>
+
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <a href="http://localhost/aashirwad/index.php#">Super Dulex</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6  mb-lg-0">
+                        <div class="footer-header">
+                            <h4>Contacts</h4>
+                        </div>
+                        <div class="footer-text">
+                            <p>
+                                Street No.17, Lakeside, Central Point
+                                <br>
+                                Pokhara-6, Nepal
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-phone-flip"></i> +977-9814143738
+                                <br>
+                                <i class="fa-solid fa-phone-flip"></i> +977-9856036622
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="d-flex justify-content-around align-items-center ">
+                <p class="px-1">Copyright © 2024 Hotel Aashirwad. All rights reserved.</p>
+                <p class="px-1">Website by DigiSoft Developers Pvt. Ltd.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a href="http://localhost/aashirwad/index.php#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center show"><i class="bi bi-arrow-up-short"></i></a>
+
+
+<!--Script here  -->
+
+<script src="./index_files/jquery-3.6.0.min.js.download"></script>
+<script src="./index_files/jquery.magnific-popup.min.js.download"></script>
+<script src="./index_files/jquery-ui.min.js.download" integrity="sha512-MlEyuwT6VkRXExjj8CdBKNgd+e2H+aYZOCUaCrt9KRk6MlZDOs91V1yK22rwm8aCIsb5Ec1euL8f0g58RKT/Pg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./index_files/bootstrap.bundle.min.js.download" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="./index_files/slick.js.download" integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./index_files/lightbox.min.js.download"></script>
+
+<script src="./index_files/custom.js.download"></script>
+
+<script>
+    $(document).ready(function() {
+        var hasAnimated = false;
+
+        $(window).scroll(function() {
+            var counterBoxOffset = $("#counter-box").offset().top;
+            var windowBottom = $(window).scrollTop() + $(window).height();
+
+            if (!hasAnimated && windowBottom > counterBoxOffset) {
+                $(".counter").each(function() {
+                    var $this = $(this),
+                        targetNumber = $this.data("number");
+
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                        countNum: targetNumber,
+                    }, {
+                        duration: 850,
+                        easing: "swing",
+                        step: function() {
+                            $this.text(Math.ceil(this.countNum).toLocaleString("en"));
+                        },
+                        complete: function() {
+                            $this.text(Math.ceil(this.countNum).toLocaleString("en"));
+                        },
+                    });
+                });
+                hasAnimated = true;
+            }
+        });
+
+        $(window).trigger('scroll');
+    });
+</script>
+
+
+
+<div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" tabindex="-1" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt=""><div class="lb-nav"><a class="lb-prev" role="button" tabindex="0" aria-label="Previous image" href="http://localhost/aashirwad/index.php"></a><a class="lb-next" role="button" tabindex="0" aria-label="Next image" href="http://localhost/aashirwad/index.php"></a></div><div class="lb-loader"><a class="lb-cancel" role="button" tabindex="0"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close" role="button" tabindex="0"></a></div></div></div></div></body></html>

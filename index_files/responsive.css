@@ -1,0 +1,238 @@
+@media screen and  (min-width: 1400px) {
+    .container {
+    max-width: 1213px;
+    }
+}
+
+
+@media (min-width: 992px){
+.navbar-nav .nav-item {
+    margin-bottom: 0; 
+    margin-right: 1rem; 
+  }
+
+  .navbar-nav .nav-item:last-child {
+    margin-right: 0; 
+  }
+
+  .nav-item.dropdown:hover .dropdown-menu {
+    display: inline-block;
+    margin-top: 0;
+     
+  }
+
+.home-slider,
+.slide-img {
+    height: clamp(400px, 50vw, 90vh);
+}
+
+.pre-booking .pre-booking-form .p_l_row{
+  padding-left: 22px;
+}
+
+.border-column::before {
+    display: block; /* Show border on large viewports */
+}
+/* Remove border from the last column */
+.border-column:last-child::before {
+    display: none; /* Remove border on large viewports for the last column */
+}
+
+.intro .intro_pre p{
+  padding-right: 90px;
+  
+}
+
+.about .about-para p{
+
+  padding-right:20px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 991.98px){
+
+    
+    .navbar-nav .nav-item {
+        margin-bottom: 0.5rem; 
+        text-align: center;
+    }
+
+    .navbar-toggler{
+        background-color: var(--heading-color);
+        height: 60px;
+        width: 60px;
+    }
+
+    .nav-item.dropdown .dropdown-menu {
+        background-color: var(--heading-color);
+        text-align: center;
+        border: none;
+      }
+
+      .nav-item .dropdown-menu .dropdown-item{
+        color: white;
+      }
+
+    .border-column{
+        padding: 10px 20px;
+    }
+
+    .check-btn{
+        height: auto;
+    }
+
+    .about_btn{
+      margin: 8px auto;
+    text-align: center;
+    }
+
+    .intro .about_img, .about .about_img{
+      display: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .footer-bg .footer-main .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .intro .sideimg{
+        padding-top: 10px;
+    }
+
+    .footer-bg .footer-main .f-about-section .section_title{
+        margin-top: -20px;
+
+      }
+    
+
+    .footer-bg .footer-main .f-about .f-logo img{
+        height:70px;
+        width:70px;
+        margin-bottom: -20px;
+    }
+
+    .intro .about_img{
+        margin-top: 16px;
+    }
+
+    .intro .about_img .about_exp_img{
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    div#counter-box{
+        margin: 5px 0px;
+    }
+
+    .testimonial-slider .testimonial-item {
+        height: auto;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.border-column:nth-child(odd)::before {
+    display: block; /* Show border on medium viewports for odd columns */
+}
+.border-column::before {
+    display: none; /* Ensure default state is no border */
+}
+}
+
+
+@media (max-width: 767.98px) {
+
+  .border-column:first-child{
+    padding-top: 20px;
+  }
+
+.tab, .tabcontent, .tab button {
+  width: 100%;
+}
+.tab button {
+  margin-bottom: 13px;
+  padding: 20px;
+}
+
+div#counter-box {
+    min-width: 109px;
+    max-width: 109px;
+    min-height: 109px;
+    max-height: 109px;
+    background-color: transparent;
+  }
+  div#counter-box span {
+    font-size: 73px;
+    color: orangered;
+  }
+  
+  div#counter-box h5 {
+  
+  margin-top: 16px;
+  
+  color: white;
+  }
+
+  .footer-bg .footer-main .f-about-section, .footer-bg .footer-main .f-about-content{
+    text-align: center;
+  }
+
+  .footer-bg .footer-main .f-about-section .section_title{
+    margin-top: -20px;
+    margin-bottom: 12px;
+  }
+
+  .footer-bg .footer-main .f-about-section .f-logo{
+    margin: 0 auto;
+  }
+
+
+
+}
+
+/* mobile devices */
+@media screen and ( max-width: 575.98px){
+
+
+  .forpaddingright .section_title h6::before{
+    width: 60px;
+  }
+
+  .room-details{
+    padding-bottom: 84px !important;
+  }
+  .gotobook_btn{
+        position: absolute;
+    z-index: 1;
+    top:unset;
+    right: unset;
+    bottom: -366px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+  
+
+.footer-bg .footer-main .row{ 
+    text-align: center;
+}
+
+.footer-bg .footer-main .f-about{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-bg .footer-main .row .social_icon ul{
+    justify-content: center;
+}
+
+
+}
+
